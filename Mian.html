@@ -1,0 +1,1115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米商城</title>
+	<link rel="" href="">
+    <link rel="stylesheet" href="CSS/XiaoMi.css">
+	<style>
+		.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+			content: " ";/* content中包含的空格也能生效，旧版本Opera浏览器中有个隐藏的bug，需要添加一个空格字符才能解决 */
+			display: block;
+			clear:both;
+			/*
+            下面两个属性取消后，也可以清除浮动。
+            我个人理解如下，为了保证after不在界面显示，所以使用了下方属性。
+            */
+			height: 0;/* 高度为0，隐藏元素 */
+			visibility: hidden;/* 元素隐藏，原位置还在 */
+		}
+		.clearfix{
+			*zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+		}
+	</style>
+</head>
+<body>
+<!--HTML代码-->
+<div id="app">
+<!--    菜单栏-->
+<div class="beijing">
+    <div id="XiaoMiZhuYe">
+        <div id="CaiDanLan">
+            <div class="cd">
+                <a rel="nofollow" href="//www.mi.com/index.html">小米商城</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//www.miui.com/">MIUI</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//iot.mi.com">IoT</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//i.mi.com/">云服务</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//airstar.com/home">天星数科</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//youpin.mi.com/">有品</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//xiaoai.mi.com/">小爱开放平台</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//qiye.mi.com/" >企业团购</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//www.mi.com/aptitude/list/?id=88">资质证照</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//www.mi.com/aptitude/list/">协议规则</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="//www.mi.com/appdownload/">下载app</a>
+                <span class="sep">&nbsp;|&nbsp;</span>
+                <a rel="nofollow" href="javascript:">Select Location</a>
+              </div>
+            <div class="dl">
+                <a href="https://order.mi.com/">登录</a>&nbsp;
+                <span class="sep">|</span>&nbsp;
+                <a href="https://order.mi.com/">注册</a>&nbsp;
+                <span class="sep">|</span>&nbsp;
+                <a href="https://order.mi.com/">消息通知</a>&nbsp;
+            </div>
+            <a href="https://www.mi.com/" class="gwc">
+                <p>购物车(0)</p>
+                <div class="ycgwc">
+                    <p class="ycgwctxt">您的购物车还没有商品，感觉选购吧!</p>
+                </div>
+            </a>
+            </div>
+        </div>
+    <div id="Appbar">
+        <div class="Appbar_div">
+           <div class="img_logo"><a href=""><img src="img/logo.jpg" alt=""></a> </div>
+            <div class="he_1">
+                <ul class="boxa">
+                    <li class="box1"></li>
+                    <li class="box2">
+                        <a href="" class="box2_a">XiaoMi手机 </a>
+						<div class="box2_div">
+							<ul class="box2_img">
+								<li class="box2_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-29 111533.jpg" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box2_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 120412.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box2_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 120431.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box2_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 141614.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box2_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 141654.png" alt="a" class="box2_imgrg"></a>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li class="box3">
+						<a href="" class="box3_a">Redmi 手机 </a>
+						<div class="box3_div">
+							<ul class="box3_img">
+								<li class="box3_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 142826.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box3_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 142858.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box3_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 142846.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box3_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 142912.png" alt="a" class="box2_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box3_imgg">
+								<a href=""><img src="img/屏幕截图 2022-06-30 142924.png" alt="a" class="box2_imgrg"></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+                    <li class="box4">
+						<a href="" class="box4_a">电视</a>
+						<div class="box4_div">
+							<ul class="box4_img">
+								<li class="box4_imgg">
+								<a href=""><img src="img/屏幕截图 2022-07-01 090023.png" alt="a" class="box4_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box4_imgg">
+								<a href=""><img src="img/屏幕截图 2022-07-01 090040.png" alt="a" class="box4_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box4_imgg">
+								<a href=""><img src="img/屏幕截图 2022-07-01 090124.png" alt="a" class="box4_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box4_imgg">
+								<a href=""><img src="img/屏幕截图 2022-07-01 090106.png" alt="a" class="box4_imgrg"></a>
+								<span class="sx"></span>
+								</li>
+								<li class="box4_imgg">
+								<a href=""><img src="img/屏幕截图 2022-07-01 090051.png"alt="a" class="box4_imgrg"></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+                    <li class="box5">
+						<a href="" class="box5_a">笔记本</a>
+							<div class="box5_div">
+								<ul class="box5_img">
+									<li class="box5_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 093445.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box5_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 093458.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box5_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 093511.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box5_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 093524.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box5_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 093601.png"alt="a" class="box4_imgrg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</li>
+                    <li class="box6">
+						<a href="" class="box6_a">平板</a>
+							<div class="box6_div">
+								<ul class="box6_img">
+									<li class="box6_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 094229.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box6_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 094317.png" alt="a" class="box4_imgrg"></a>
+									<span class="sx"></span>
+									</li>
+									<li class="box6_imgg">
+									<a href=""><img src="img/屏幕截图 2022-07-01 094335.png" alt="a" class="box4_imgrg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						</li>
+						<li class="box7">
+							<a href="" class="box7_a">家电</a>
+								<div class="box7_div">
+									<ul class="box7_img">
+										<li class="box7_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094032.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box7_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094048.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box7_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094100.png" alt="a" class="box4_imgrg"></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</li>
+						<li class="box8">
+							<a href="" class="box8_a">路由器</a>
+								<div class="box8_div">
+									<ul class="box8_img">
+										<li class="box8_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094120.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box8_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094132.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box8_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094144.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box8_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094155.png" alt="a" class="box4_imgrg"></a>
+										<span class="sx"></span>
+										</li>
+										<li class="box8_imgg">
+										<a href=""><img src="img/屏幕截图 2022-07-04 094210.png" alt="a" class="box4_imgrg"></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</li>
+						<li class="box10">
+							<a href="https://www.mi.com/service" class="box10_a">服务中心</a>
+						</li>
+						<li class="box10">
+							<a href="https://www.mi.com/service" class="box10_a">社区</a>
+						</li>					
+                </ul>
+            </div>
+			<div class="search" >
+				<a href="#" class="search_a">
+				<input type="text" class="biaodan" placeholder="耳机">
+				</a>
+				<a href=""><div class="search_fo">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+					  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+					</svg>
+				</div></a>
+		</div>
+		<div id="Shouyebeijing">
+			<div class="ShouYe">
+			<div class="Shou1">
+			<!--侧边导航栏-->
+				<div class="Cedao">
+					<ul id="Cedao_ul">
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">手机</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">电视</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">电脑</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">出行</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">耳机</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">家电</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li><li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">智能</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">电源</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">健康</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+						<li class="Cedao_ul1" >
+							<a href="#" class="Cedao_a">生活</a>
+							<span>></span>
+							<div class="Cedao_div">
+								<p>货架内容展示失败</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 网页轮播图 -->
+				<div class="lbt">
+					<div class="lbt-img"><img src="img/a1.png" width="980" height="460" alt=""></div>
+					<div class="lbt-img"><img src="img/a2.png" width="980" height="460"></div>
+					<div class="lbt-img"><img src="img/a3.png" width="980" height="460"></div>
+					<div class="lbt-img"><img src="img/a4.png" width="980" height="460"></div>
+					<div class="lbt-left">&lt;</div>
+					<div class="lbt-right">&gt;</div>
+					<div class="box-zhiding">
+						<ul>
+							<li class="botton"></li>
+							<li class="botton"></li>
+							<li class="botton"></li>
+							<li class="botton"></li>
+					 
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="Shou2">
+				<ul>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82abdba456e8caaea5848a0cddce03db.png?w=48&h=48" alt=""><span>保障服务</span></a></li>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48" alt=""><span>企业团购</span></a></li>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eded6fa3b897a058163e2485532c4f10.png?w=48&h=48" alt=""><span>F码通行</span></a></li>
+				<br>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43a3195efa6a3cc7662efed8e7abe8bf.png?w=48&amp;h=48" alt=""><span>米粉卡</span></a></li>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4846bca6010a0deb9f85464409862af.png?w=48&amp;h=48" alt=""><span>以旧换新</span></a></li>
+					<li><a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a76d7636b08e0988efb4fc384ae497b.png?w=48&amp;h=48" alt=""><span>话费充值</span></a></li>
+				</ul>
+			</div>
+			<div class="Shou3">
+				<ul>
+					<li><a href=""><img src="img/5668146e20fc025caa756a0f8a3c7da4.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/32a62196b9af47752c96e7a50c86417c.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/28c13d0d11b38ec17fa5d83bc6ba5912.jpg" alt=""></a></li>
+			
+				</ul>
+			</div>
+		</div>
+		</div>
+        </div>	
+		<div class="container">
+			<!-- 购物首页展示栏 -->
+			<div class="home-banner-box">
+				<a href=""><img src="img/33973edd8c6c8177f8431daf679e8eb5.webp" alt=""></a>
+			</div>
+			<!-- 手机栏 -->
+			<div class="Mobile-phone-field">
+				<div class="box-shouji">
+					<h2 class="title">手机</h2>
+					<h2 class="title2"><a href=""><span>查看更多</span><img src="img/右箭头.png" alt=""></a></h2>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zuobianxiaomi">
+					<a href=""><img src="img/fef86f3a976842446ec7c3f315cf253f.webp" alt=""></a>
+				</div>
+				<div class="zhuzhuanshi">
+					<ul>
+						<a href=""><li>
+						<img src="img/a687e796bb4879cd0e93867177f800da.webp" alt="">
+						<h3 class="title">Xiaomi MIX Fold 2</h3>
+						<p class="s1">超轻薄折叠机身设计,小米自研微水...</p>
+						<p class="span">8999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/202208101511_488638d8f8d5dbcf3b66cd82703ecfb9.webp" alt="">
+							<h3 class="title2">Redmi k50至尊版</h3>
+							<p class="s2">晓龙8+ | 1.5k高清直屏</p>
+							<p class="span">2999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Xiaomi 12S.webp" alt="">
+							<h3 class="title3">Xiaomi 12S Ultra</h3>
+							<p class="s2">这真莱卡 | 专业徕卡影像</p>
+							<p class="span">5999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Xiaomi 12Ss.webp">
+							<h3 class="title4">Xiaomi 12S Pro</h3>
+							<p class="s3">晓龙8+旗舰处理器 | 徕卡影像</p>
+							<p class="span">4699元起</p>
+						</li></a>
+						<br/>
+						<a href=""><li>
+							<img src="img/Xiaomi 12Spro.webp" alt="">
+							<h3 class="title5">Xiaomi 12S</h3>
+							<p class="s4">小尺寸性能旗舰 | 徕卡影像</p>
+							<p class="span">3999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Xiaomi 12Spro天玑版.webp" alt="">
+							<h3 class="title6">Xiaomi 12pro天玑版</h3>
+							<p class="s5">全国首发天玑9000+ | 叶脉冷泵散热系...</p>
+							<p class="span">3999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Redmi Note 11 T.webp" alt="">
+							<h3 class="title6">Redmi Note 11T Pro+</h3>
+							<p class="s2">天玑8100 | 真旗舰芯</p>
+							<p class="span">1999元起</p>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Redmi Note 11 T pro.webp" alt="">
+							<h3 class="title6">Redmi Note 11T Pro</h3>
+							<p class="s6">天玑8100 | 真机旗舰芯</p>
+							<p class="span">1699元起</p>
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 智能穿戴栏 -->
+			<div class="Smart-wear">
+				<div class="box-shouji">
+					<h2 class="title">智能穿戴</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobianshoubiao">
+					<a href=""><img src="img/手表展示.webp" alt=""></a>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi2">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/biao1.webp" alt="">
+						<h3 class="title">Xiaomi Watch S1</h3>
+						<p class="s1">蓝宝石玻璃镜面|不锈钢中框|1.43'A...</p>
+						<p class="span">1049元起<s>1099元</s></p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 笔记本电脑平板区 -->
+			<div class="Notebook-tablet">
+				<div class="box-shouji">
+					<h2 class="title">笔记本 | 平板</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobiandiannao">
+					<a href=""><img src="img/笔记本电脑.webp" alt=""></a>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi3">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/笔记本电脑展示.webp" alt="">
+						<h3 class="title">Redmi Book Pro 14 2022</h3>
+						<p class="s1">全新12代英特尔处理器,2.5k 120HZ...</p>
+						<p class="span">5399元起</p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/笔记本电脑展示.webp" alt="">
+						<h3 class="title">Redmi Book Pro 14 2022</h3>
+						<p class="s1">全新12代英特尔处理器,2.5k 120HZ...</p>
+						<p class="span">5399元起</p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/笔记本电脑展示.webp" alt="">
+						<h3 class="title">Redmi Book Pro 14 2022</h3>
+						<p class="s1">全新12代英特尔处理器,2.5k 120HZ...</p>
+						<p class="span">5399元起</p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/笔记本电脑展示.webp" alt="">
+						<h3 class="title">Redmi Book Pro 14 2022</h3>
+						<p class="s1">全新12代英特尔处理器,2.5k 120HZ...</p>
+						<p class="span">5399元起</p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/平板展示.webp" alt="">
+						<h3 class="title2">小米平板5 Pro</h3>
+						<p class="s1">晓龙870芯片 | 2.5K超高清 | 120HZ...</p>
+						<p class="span1">2299元起<s>2499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/平板展示.webp" alt="">
+						<h3 class="title2">小米平板5 Pro</h3>
+						<p class="s1">晓龙870芯片 | 2.5K超高清 | 120HZ...</p>
+						<p class="span1">2299元起<s>2499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/平板展示.webp" alt="">
+						<h3 class="title2">小米平板5 Pro</h3>
+						<p class="s1">晓龙870芯片 | 2.5K超高清 | 120HZ...</p>
+						<p class="span1">2299元起<s>2499元</s></p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 家电区 -->
+			<div class="home-appliances">
+				<div class="box-shouji">
+					<h2 class="title">家电</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobiandjiadian">
+					<ul>
+						<li><a href=""><img src="img/电视.webp" alt=""></a></li>
+						<li><a href=""><img src="img/洗衣机.webp" alt=""></a></li>
+					</ul>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi4">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/小米电视6.webp" alt="">
+						<h3 class="title">小米电视6 65" OLED</h3>
+						<p class="s1">OLED自发光屏|百万级对比度|4.6m...</p>
+						<p class="span1">6699元起<s>8899元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米电视6.webp" alt="">
+						<h3 class="title">小米电视6 65" OLED</h3>
+						<p class="s1">OLED自发光屏|百万级对比度|4.6m...</p>
+						<p class="span1">6699元起<s>8899元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米电视6.webp" alt="">
+						<h3 class="title">小米电视6 65" OLED</h3>
+						<p class="s1">OLED自发光屏|百万级对比度|4.6m...</p>
+						<p class="span1">6699元起<s>8899元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米电视6.webp" alt="">
+						<h3 class="title">小米电视6 65" OLED</h3>
+						<p class="s1">OLED自发光屏|百万级对比度|4.6m...</p>
+						<p class="span1">6699元起<s>8899元</s></p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/洗衣机黑.jpg" alt="">
+						<h3 class="title2">米家波轮洗衣机10kg</h3>
+						<p class="s1">全景玻璃阻尼上盖 防夹手 防抖动</p>
+						<p class="span1">1099元起<s>1499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/洗衣机黑.jpg" alt="">
+						<h3 class="title2">米家波轮洗衣机10kg</h3>
+						<p class="s1">全景玻璃阻尼上盖 防夹手 防抖动</p>
+						<p class="span1">1099元起<s>1499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/洗衣机黑.jpg" alt="">
+						<h3 class="title2">米家波轮洗衣机10kg</h3>
+						<p class="s1">全景玻璃阻尼上盖 防夹手 防抖动</p>
+						<p class="span1">1099元起<s>1499元</s></p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title2">米家全自动波<br/>轮洗衣机</h2>
+						<p class="spam">799元</p>
+						<img src="img/洗衣机小.webp" alt="" class="imga">
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 生活电器区 -->
+			<div class="Life-home-appliances">
+				<div class="box-shouji">
+					<h2 class="title">生活电器</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobianshenghuojiadian">
+					<ul>
+						<li><a href=""><img src="img/扫地机器人展示.webp" alt=""></a></li>
+						<li><a href=""><img src="img/扫地机器人2.webp" alt=""></a></li>
+					</ul>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi5">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/米家全能扫地拖地机器人.webp" alt="">
+						<h3 class="title">米家全能扫地拖地机器人</h3>
+						<p class="s1">免洗集尘全自动 , 一机解放双手 ...</p>
+						<p class="span1">3699元起<s>4599元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家全能扫地拖地机器人.webp" alt="">
+						<h3 class="title">米家全能扫地拖地机器人</h3>
+						<p class="s1">免洗集尘全自动 , 一机解放双手 ...</p>
+						<p class="span1">3699元起<s>4599元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家全能扫地拖地机器人.webp" alt="">
+						<h3 class="title">米家全能扫地拖地机器人</h3>
+						<p class="s1">免洗集尘全自动 , 一机解放双手 ...</p>
+						<p class="span1">3699元起<s>4599元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家全能扫地拖地机器人.webp" alt="">
+						<h3 class="title">米家全能扫地拖地机器人</h3>
+						<p class="s1">免洗集尘全自动 , 一机解放双手 ...</p>
+						<p class="span1">3699元起<s>4599元</s></p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/米家扫拖机器人1T.webp" alt="">
+						<h3 class="title2">米家扫拖机器人1T</h3>
+						<p class="s2">3D精准避障，扫拖不再碰撞</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家扫拖机器人1T.webp" alt="">
+						<h3 class="title2">米家扫拖机器人1T</h3>
+						<p class="s2">3D精准避障，扫拖不再碰撞</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家扫拖机器人1T.webp" alt="">
+						<h3 class="title2">米家扫拖机器人1T</h3>
+						<p class="s2">3D精准避障，扫拖不再碰撞</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title2">米家无线吸尘<br/>器k10pro</Kbd></h2>
+						<p class="spam">1599元</p>
+						<img src="img/吸尘器.webp" alt="" class="imga">
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 购物展示栏二 -->
+			<div class="Item-display-column-2">
+				<a href=""><img src="img/米家智能炸锅展示.webp" alt=""></a>
+			</div>
+			<!-- 厨房电器-->
+			<div class="kitchen-appliance">
+				<div class="box-shouji">
+					<h2 class="title">厨房电器</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobianchufangdianqi">
+					<ul>
+						<li><a href=""><img src="img/小米净水器.webp" alt=""></a></li>
+						<li><a href=""><img src="img/米家油烟机.webp" alt=""></a></li>
+					</ul>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi6">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/小米净水器1200G.webp" alt="">
+						<h3 class="title">小米净水器1200G</h3>
+						<p class="s1">3.2L/min大流量，鲜活首杯水</p>
+						<p class="span1">3099元起<s>3499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米净水器1200G.webp" alt="">
+						<h3 class="title">小米净水器1200G</h3>
+						<p class="s1">3.2L/min大流量，鲜活首杯水</p>
+						<p class="span1">3099元起<s>3499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米净水器1200G.webp" alt="">
+						<h3 class="title">小米净水器1200G</h3>
+						<p class="s1">3.2L/min大流量，鲜活首杯水</p>
+						<p class="span1">3099元起<s>3499元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/小米净水器1200G.webp" alt="">
+						<h3 class="title">小米净水器1200G</h3>
+						<p class="s1">3.2L/min大流量，鲜活首杯水</p>
+						<p class="span1">3099元起<s>3499元</s></p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/米家侧吸烟灶套装S1 天然气.webp" alt="">
+						<h3 class="title2">米家侧吸烟灶套装S1 天然气</h3>
+						<p class="s2">挥手即排，洁净烹饪</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家侧吸烟灶套装S1 天然气.webp" alt="">
+						<h3 class="title2">米家侧吸烟灶套装S1 天然气</h3>
+						<p class="s2">挥手即排，洁净烹饪</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家侧吸烟灶套装S1 天然气.webp" alt="">
+						<h3 class="title2">米家侧吸烟灶套装S1 天然气</h3>
+						<p class="s2">挥手即排，洁净烹饪</p>
+						<p class="span1">999元起<s>1999元</s></p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 购物展示栏三 -->
+			<div class="Item-display-column-3">
+				<a href=""><img src="img/小米巨能写.webp" alt=""></a>
+			</div>
+			<!-- 日用百货-->
+			<div class="Daily-provisions">
+				<div class="box-shouji">
+					<h2 class="title">日用百货</h2>
+					<h2 class="title2"><a href=""><span>热门</span></a></h2>
+				</div>
+				<div class="zuobianriyongbaihuo">
+					<ul>
+						<li><a href=""><img src="img/小米充电宝.webp" alt=""></a></li>
+						<li><a href=""><img src="img/米家剃须刀.webp" alt=""></a></li>
+					</ul>
+				</div>
+				<!-- 主展示的商品 -->
+				<div class="zhuzhuanshi7">
+					<ul>
+						<a href=""><li class="Card-style">
+						<img src="img/米家声波电动牙刷T700.webp" alt="">
+						<h3 class="title">米家声波电动牙刷T700</h3>
+						<p class="s1">智能洁齿丨强劲动力</p>
+						<p class="span1">299元<s>349元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家声波电动牙刷T700.webp" alt="">
+						<h3 class="title">米家声波电动牙刷T700</h3>
+						<p class="s1">智能洁齿丨强劲动力</p>
+						<p class="span1">299元<s>349元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家声波电动牙刷T700.webp" alt="">
+						<h3 class="title">米家声波电动牙刷T700</h3>
+						<p class="s1">智能洁齿丨强劲动力</p>
+						<p class="span1">299元<s>349元</s></p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家声波电动牙刷T700.webp" alt="">
+						<h3 class="title">米家声波电动牙刷T700</h3>
+						<p class="s1">智能洁齿丨强劲动力</p>
+						<p class="span1">299元<s>349元</s></p>
+						</li></a>
+						<br/>
+						<a href=""><li class="Card-style">
+						<img src="img/米家剃须刀S500.webp" alt="">
+						<h3 class="title2">米家剃须刀S500</h3>
+						<p class="s2">3刀头360°浮动丨超长续航</p>
+						<p class="span1">179元</p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家剃须刀S500.webp" alt="">
+						<h3 class="title2">米家剃须刀S500</h3>
+						<p class="s2">3刀头360°浮动丨超长续航</p>
+						<p class="span1">179元</p>
+						</li></a>
+						<a href=""><li class="Card-style">
+						<img src="img/米家剃须刀S500.webp" alt="">
+						<h3 class="title2">米家剃须刀S500</h3>
+						<p class="s2">3刀头360°浮动丨超长续航</p>
+						<p class="span1">179元</p>
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title2">米家自动香氛<br/>机套装</Kbd></h2>
+						<p class="spam">89元</p>
+						<img src="img/香氛机.webp" alt="" class="imga">
+						</li></a>
+						<a href=""><li class="wei">
+						<p class="title">浏览更多</h2>
+						<p>热门</p>
+						<img src="img/右大箭头 (2).png" alt="">
+						</li></a>
+					</ul>
+				</div>
+			</div>
+			<!-- 视频栏 -->
+			<div class="video">
+				<div class="box-video">
+					<h2 class="title">视频</h2>
+					<h2 class="title2"><a href=""><span>查看更多</span><img src="img/右箭头.png" alt=""></a></h2>
+				</div>
+				<div class="box-videos">
+					<ul>
+						<a href=""><li>
+							<img src="img/视频1.webp" alt="">
+							<p class="title1">2021年春季新品发布会第一场</p>
+							<img src="img/右箭头.png" alt="" class="imag">
+							<div><img src="img/右箭头%20(1).png" alt=""></div>
+						</li></a>
+						<a href=""><li>
+							<img src="img/Redmi 10X系列发布会.webp" alt="">
+							<p class="title">Redmi 10X系列发布会</p>
+							<img src="img/右箭头.png" alt="" class="imag">
+							<div><img src="img/右箭头%20(1).png" alt=""></div>
+						</li></a>
+						<a href=""><li>
+							<img src="img/小米10 青春版发布会.webp" alt="">
+							<p class="title">小米10 青春版发布会</p>
+							<img src="img/右箭头.png" alt="" class="imag">
+							<div><img src="img/右箭头%20(1).png" alt=""></div>
+						</li></a>
+						<a href=""><li class="lia">
+							<img src="img/小米10 8K手机拍大片.webp" alt="">
+							<p class="title">小米10 8K手机拍大片</p>
+							<img src="img/右箭头.png" alt="" class="imag">
+							<div><img src="img/右箭头%20(1).png" alt=""></div>
+						</li></a>
+					</ul>
+				</div>
+    </div>
+	</div>
+		<div class="web_bottom">
+			<div class="botton_content">
+				<div class="footer-service">
+					<ul>
+						<li>
+							<img src="img/扳手.png" alt="">
+							<div><img src="img/扳手 (1).png" alt=""></div>
+							<a href="">预约维修服务</a>
+						</li>
+						<li>
+							<img src="img/7天包退.png" alt="">
+							<div><img src="img/7天包退 (1).png" alt=""></div>
+							<a href="">7天无理由退货</a>
+						</li>
+						<li>
+							<img src="img/15天包换.png" alt="">
+							<div><img src="img/15天包换 (1).png" alt=""></div>
+							<a href="">15天免费换货</a>
+						</li>
+						<li>
+							<img src="img/礼包.png" alt="">
+							<div><img src="img/礼包 (1).png" alt=""></div>
+							<a href="">满69元包邮</a>
+						</li>
+						<li style="border: none;">
+							<img src="img/地标-01.png" alt="">
+							<div><img src="img/地标-01 (1).png" alt=""></div>
+							<a href="">1100余家售后点</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer">
+					<div class="Buying_guide">
+						<dl CLASS="dlA">
+							<dt>购机指南</dt>
+							<dd><a href="">手机</a></dd>
+							<dd><a href="">笔记本</a></dd>
+							<dd><a href="">电视</a></dd>
+							<dd><a href="">平板</a></dd>
+							<dd><a href="">穿戴</a></dd>
+							<dd><a href="">耳机</a></dd>
+							<dd><a href="">家电</a></dd>
+							<dd><a href="">路由器</a></dd>
+							<dd><a href="">音响</a></dd>
+							<dd><a href="">配件</a></dd>
+						</dl>
+						<dl class="dlB">
+							<dt>服务中心</dt>
+							<dd><a href="">申请售后</a></dd>
+							<dd><a href="">售后政策</a></dd>
+							<dd><a href="">维修服务价格</a></dd>
+							<dd><a href="">订单查询</a></dd>
+							<dd><a href="">以旧换新</a></dd>
+							<dd><a href="">保障服务</a></dd>
+							<dd><a href="">防伪查询</a></dd>
+							<dd><a href="">F码通道</a></dd>
+						</dl>
+						<dl class="dlC">
+							<dt>线下门店</dt>
+							<dd><a href="">小米之家</a></dd>
+							<dd><a href="">服务网点</a></dd>
+							<dd><a href="">授权体验店/专区</a></dd>
+						</dl>
+						<dl class="dlD">
+							<dt>关于小米</dt>
+							<dd><a href="">了解小米</a></dd>
+							<dd><a href="">加入小米</a></dd>
+							<dd><a href="">投资者关系</a></dd>
+							<dd><a href="">环境，社会及管治</a></dd>
+							<dd><a href="">廉洁举报</a></dd>
+						</dl>
+					</div>
+					<div class="ManualService">
+						<p>400-100-5678</p>
+						<span>8:00-18:00(仅收市话费)</span>
+						<a href="#" class="service">
+							<img src="img/短信.png" alt="" class="image"><img src="img/短信%20(1).png" alt="" class="O0img">
+							人工客服
+						</a>
+					</div>
+				</div>
+				<div class="site-info">
+					<div class="logo_mi"><img src="img/icon-小米归属.png" alt=""></div>
+					<div class="info-text">
+						<p class="sites">
+							<a href="">小米商城</a>
+							<span>|</span>
+							<a href="">MIUI</a>
+							<span>|</span>
+							<a href="">米家</a>
+							<span>|</span>
+							<a href="">米聊</a>
+							<span>|</span>
+							<a href="">多看</a>
+							<span>|</span>
+							<a href="">游戏</a>
+							<span>|</span>
+							<a href="">政企</a>
+							<span>|</span>
+							<a href="">小米天猫店</a>
+							<span>|</span>
+							<a href="">小米集团隐私政策</a>
+							<span>|</span>
+							<a href="">小米公司儿童保护政策</a>
+							<span>|</span>
+							<a href="">小米商店隐私政策</a>
+							<span>|</span>
+							<a href="">问题反馈</a>
+							<span>|</span>
+							<a href="">Select Location</a>
+						</p>
+						<p class="sites">
+							<a href="">北京互联网法院法律服务工作站 </a>
+							<span>|</span>
+							<a href="">中国消费者协会</a>
+							<span>|</span>
+							<a href="">北京市消费者协会</a>
+						</p>
+						<p>
+							©
+							<a href="javascript:;" title="mi.com" class="pa">mi.com</a> 京ICP证110507号
+							<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow" class="pa">京ICP备10046444号</a>
+							<a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank" class="pa">京公网安备11010802020134号</a>
+							<a href="//www.mi.com/culture-license/" target="_blank" class="pa">京网文[2020]0276-042号</a> <br>
+							<a href="//www.mi.com/medical/record/" target="_blank" class="pa">（京）网械平台备字（2018）第00005号</a>
+							<a href="//www.mi.com/medical/qualification/" target="_blank" class="pa">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+							<a href="//www.mi.com/business-license/" target="_blank" class="pa">营业执照</a>
+							<a href="//www.mi.com/medical/list/" target="_blank" class="pa">医疗器械质量公告</a> <br>
+							<a href="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/746c494423d9a2bcd15437e624dcbc4b.png" target="_blank" class="pa">增值电信业务许可证</a>&nbsp;网络食品经营备案 京食药网食备202010048 &nbsp;
+							<a href="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6859168166651511897f54fa1047fe3.png" target="_blank" class="pa">食品经营许可证</a> <br>
+							违法和不良信息举报电话：171-5104-4404&nbsp;<a href="https://www.mi.com/intellectual" target="_blank" class="pa">知识产权侵权投诉</a>&nbsp;本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+						</p>
+					</div>
+					<div class="info-linksinfo">
+						<a href=""><img src="img/truste.png" alt=""></a>
+						<a href=""><img src="img/v-logo-2.png" alt=""></a>
+						<a href=""><img src="img/icon3.png" alt=""></a>
+						<a href=""><img src="img/f1ee261b96ae71e845efba398efeca02.png" alt=""></a>
+					</div>
+					<div class="botton_img">
+						<img src="img/slogan2020.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var indax = 0;//标记当前图片索引
+		var f;
+		dingshiqi()
+		//定时更换
+		function dingshiqi(){
+			f = setInterval(function(){
+				if(indax==$(".lbt-img").length-1){
+					indax = 0;
+					$(".lbt-img").css("opacity","0");
+					$(".lbt-img").eq(indax).css("opacity","1");
+				}else{
+					indax++;
+					$(".lbt-img").css("opacity","0");
+					$(".lbt-img").eq(indax).css("opacity","1");
+				}
+				
+				
+			},3000)//2000等于2秒
+		}
+		//按钮更换
+		$(".lbt-left").click(function(){
+			clearInterval(f);
+			if(indax == 0){
+				indax = $(".lbt-img").length-1;
+				$(".lbt-img").css("opacity","0");
+				$(".lbt-img").eq(indax).css("opacity","1");
+				dingshiqi()
+			}
+		else{
+			indax--;
+			$(".lbt-img").css("opacity","0");
+			$(".lbt-img").eq(indax).css("opacity","1");
+			dingshiqi()
+		}
+		})
+		$(".lbt-right").click(function(){
+			clearInterval(f);
+			if(indax == $(".lbt-img").length-1){
+				indax = 0;
+				$(".lbt-img").css("opacity","0");
+				$(".lbt-img").eq(indax).css("opacity","1");
+				dingshiqi()
+			}
+			else{
+				indax++;
+				$(".lbt-img").css("opacity","0");
+				$(".lbt-img").eq(indax).css("opacity","1");
+				dingshiqi()
+			}
+		})
+		$(".botton").click(function(){
+			clearInterval(f)
+			var indexx = $(this).index();
+			indax = indexx;
+			$(".lbt-img").css("opacity","0");
+			$(".lbt-img").eq(indax).css("opacity","1");
+			dingshiqi();
+		})
+	})
+</script>
+</html>
